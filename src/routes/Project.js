@@ -3,14 +3,14 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroImage2 from '../components/HeroImage2';
 import PricingCards from '../components/PricingCards';
-import WorkCard from '../components/WorkCard';
+import Work from '../components/Work';
 
 const Project = () => {
   return (
     <div>
       <Navbar/>
-      <HeroImage2 heading="PROJECTS." text="Some of my most recent work" />
-      <WorkCard/>
+      <HeroImage2 heading="PROJECTS." text="Here Some Recent Projects Work"/>
+      <Work/>
       <PricingCards/>
       <Footer/>
     </div>

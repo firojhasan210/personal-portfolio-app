@@ -27,13 +27,13 @@ window.addEventListener("scroll",changeColor);
             <h1>Portfolio</h1>
         </Link>
         <ul className= {click ? "nav-menu active" : 
-            'nav-menu'}>
+            "nav-menu"}>
             <li>
                 <Link to="/" >Home</Link>
             </li>
         
             <li>
-                <Link to="/project" >Projects</Link>
+                <Link to="/project" >Project</Link>
             </li>
         
             <li>
@@ -46,8 +46,12 @@ window.addEventListener("scroll",changeColor);
         </ul>
         <div className='hamburger' onClick=
             {handleClick} > 
-            {click ? (<FaTimes size={20} style={{color:"#fff" }} />
-            ) : (<FaBars size={20} style={{color:"#fff" }} />
+            {click ? (
+            <FaTimes size={20} style={{color:
+                "#fff" }} />
+            ) : (
+            <FaBars size={20} style={{color:"#fff" 
+                }} />
             )}
         </div>
     </div>

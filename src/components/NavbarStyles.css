@@ -17,7 +17,7 @@
 }
 
 .hamburger{
-    display: initial;
+  display: none;
 }
 .nav-menu li {
     padding: 0 1rem;
@@ -35,12 +35,12 @@
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color:  rgba(240, 11, 11, 0);
+    background:  rgba(0, 0, 0, 0.9);
     position: absolute;
     top: 0;
-    left: -100%;
+    left:-100%;
     z-index: -3;
-    transition: 0.5s;
+    transition: 0.2s;
   }  
 
   .nav-menu.active{
@@ -53,4 +53,8 @@
   .nav-menu li a{
     font-size: 2rem;
   }
+  
+.hamburger{
+  display: initial;
+}
 }

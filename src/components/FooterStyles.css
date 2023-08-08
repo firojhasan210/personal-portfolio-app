@@ -22,22 +22,24 @@
 .location{
     display: flex;
     margin-bottom: 0.8rem;
+    gap: 5px;
 }
 
 .location p{
-    line-height: 30px;
+    line-height: 10px;
 }
 
 .right{
     height: 100%;
     max-width: 100%;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0%;
 }
 
 .social{
     margin-top: 1rem;
-
+    display: flex;
+    gap: 30px;
 }
 
 h4 {
